@@ -1,11 +1,23 @@
--- Staff Applications
-CREATE TABLE 'staffapps' (
-  `id` int(6) UNSIGNED NOT NULL,
-  `fname` varchar(50) DEFAULT NULL,
-  `country` varchar(50) NOT NULL,
-  `timezone` varchar(50) NOT NULL,
-  `qualities` text NOT NULL,
-  `future` text NOT NULL,
-  `reference` varchar(50) NOT NULL,
-  `sent_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+-- Staff Apps
+CREATE TABLE IF NOT EXISTS staffapps (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    fname VARCHAR(50) NOT NULL,
+    country VARCHAR(50) NOT NULL,
+    timezone VARCHAR(50) NOT NULL,
+    qualities TEXT NOT NULL,
+    future TEXT NOT NULL,
+    reference VARCHAR(50) NOT NULL,
+    sent_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)
+
+-- Developer Apps
+CREATE TABLE IF NOT EXISTS devapps (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    fname VARCHAR(50) NOT NULL,
+    country VARCHAR(50) NOT NULL,
+    timezone VARCHAR(50) NOT NULL,
+    qualities TEXT NOT NULL,
+    future TEXT NOT NULL,
+    reference VARCHAR(50) NOT NULL,
+    sent_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)
