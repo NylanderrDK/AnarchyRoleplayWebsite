@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Anarchy Roleplay | Discord</title>
     <script>
-        window.location.href = "https://discord.gg/DgQBQeh"
+        window.location.href = "https://discord.gg/vYHGQn3"
     </script>
 </head>
 <body>
