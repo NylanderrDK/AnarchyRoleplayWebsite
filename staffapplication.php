@@ -57,10 +57,10 @@
     <!-- Application form -->
     <div class="container h-100">
         <div class="row justify-content-center align-items-center" style="margin-top: 30px;">
-            <form class="col-12" style="background-color: white;padding: 20px; border-radius: 25px;">
+            <form class="col-12" style="background-color: white;padding: 20px; border-radius: 25px;" method="POST" action="staffappsent.php">
                 <div class="form-group">
-                    <label for="name">Your Full Name</label>
-                    <input type="text" name="name" id="name" class="form-control" placeholder="John Doe" required>
+                    <label for="fname">Your Full Name</label>
+                    <input type="text" name="fname" id="fname" class="form-control" placeholder="John Doe" required>
                 </div>
                 <div class="form-group">
                     <label for="country">Your Country</label>
@@ -71,8 +71,8 @@
                     <input type="text" name="timezone" id="timezone" class="form-control" placeholder="EST" required>
                 </div>
                 <div class="form-group">
-                    <label for="why">Which Qualities Will You Bring To The Staff Team?</label>
-                    <textarea class="form-control" id="why" name="why" rows="3" required></textarea>
+                    <label for="qualities">Which Qualities Will You Bring To The Staff Team?</label>
+                    <textarea class="form-control" id="qualities" name="qualities" rows="3" required></textarea>
                 </div>
                 <div class="form-group">
                     <label for="future">What Future Do You Plan To Have At Anarchy Roleplay?</label>
@@ -83,7 +83,7 @@
                     <input type="text" name="references" id="references" class="form-control" placeholder="References" required>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-secondary justify-content-center">Send Application</button>
+                    <button type="submit" class="btn btn-secondary justify-content-center" id="sendapp" name="sendapp">Send Application</button>
                 </div>
             </form>
         </div>

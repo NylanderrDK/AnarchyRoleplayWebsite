@@ -68,7 +68,7 @@
 
         <h2>Privacy Policies</h2>
 
-        <P>You may consult this list to find the Privacy Policy for each of the advertising partners of Anarchy Roleplay. Our Privacy Policy was created with the help of the <a href="https://www.privacypolicygenerator.info">Privacy Policy Generator</a> and the <a href="https://www.privacypolicyonline.com">Privacy Policy Generator Online</a>.</p>
+        <P>You may consult this list to find the Privacy Policy for each of the advertising partners of Anarchy Roleplay. Our Privacy Policy was created with the help of the <a href="https://www.privacypolicygenerator.info" style="color:white;">Privacy Policy Generator</a> and the <a href="https://www.privacypolicyonline.com" style="color:white;">Privacy Policy Generator Online</a>.</p>
 
         <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Anarchy Roleplay, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
 
