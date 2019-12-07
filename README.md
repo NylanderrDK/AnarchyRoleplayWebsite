@@ -2,7 +2,7 @@ Hello and welcome to the GitHub repo for Anarchy Roleplays website! This houses 
 On the site you can find information about Anarchy Roleplay, donate and apply, for etc. staff.
 
 # Other Links
-* The Discord [Update..]
+* [The Discord](https://discord.gg/vYHGQn3)
 
 # Credits
 Coded by Nylander with Bootstrap CSS.
