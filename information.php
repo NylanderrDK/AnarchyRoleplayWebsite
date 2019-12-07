@@ -36,7 +36,7 @@
                     </li>
                 </ul>
                 <a href="discord.php">
-                    <button class="btn btn-danger my-2 my-sm-0" onclick="redirectDiscord()">Discord</button>
+                    <button class="btn btn-danger my-2 my-sm-0">Discord</button>
                 </a>
             </div>
         </div>  
