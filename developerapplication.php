@@ -25,8 +25,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="information.php">Information</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Information
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="rules.php">Rules</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="privacy.php">Privacy Policy</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a href="donation.php" class="nav-link">Donation</a>
@@ -36,10 +43,10 @@
                     </li>
                 </ul>
                 <a href="discord.php">
-                    <button class="btn btn-danger my-2 my-sm-0">Discord</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn">Discord</button>
                 </a>
                 <a href="fivem://connect/anarchyroleplay.com">
-                    <button class="btn btn-danger my-2 my-sm-0" style="margin-left: 10px;">Connect</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Connect</button>
                 </a>
             </div>
         </div>  

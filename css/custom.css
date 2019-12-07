@@ -3,6 +3,11 @@ body, html {
     overflow-y: hidden;
 }
 
+/* Style buttons */
+.redbtn {
+    background-color: #FF0000;
+}
+
 /* Style to applications */
 input[type=button] {
     transition: .3s ease-in-out !important;

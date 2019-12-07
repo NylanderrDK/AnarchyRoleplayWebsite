@@ -36,10 +36,10 @@
                     </li>
                 </ul>
                 <a href="discord.php">
-                    <button class="btn btn-danger my-2 my-sm-0">Discord</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn">Discord</button>
                 </a>
                 <a href="fivem://connect/anarchyroleplay.com">
-                    <button class="btn btn-danger my-2 my-sm-0" style="margin-left: 10px;">Connect</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Connect</button>
                 </a>
             </div>
         </div>  
