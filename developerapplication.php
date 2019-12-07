@@ -35,9 +35,9 @@
                         <a href="applications.php" class="nav-link">Application</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <button class="btn btn-danger my-2 my-sm-0">Discord</button>
-                </form>
+                <a href="discord.php">
+                    <button class="btn btn-danger my-2 my-sm-0" onclick="redirectDiscord()">Discord</button>
+                </a>
             </div>
         </div>  
     </nav>
