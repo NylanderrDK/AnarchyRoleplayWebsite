@@ -52,7 +52,7 @@
         </div>  
     </nav>
 
-    <div class="container text-white" style="margin-top 50px;">
+    <div class="container text-black" style="margin-top 50px; background-color: white; border-radius: 10px;">
         <h1 style="margin-top: 50px;">Privacy Policy for Anarchy Roleplay</h1>
 
         <p>At Anarchy Roleplay, accessible from http://anarchyroleplay.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Anarchy Roleplay and how we use it.</p>
