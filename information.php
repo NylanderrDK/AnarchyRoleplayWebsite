@@ -38,6 +38,9 @@
                 <a href="discord.php">
                     <button class="btn btn-danger my-2 my-sm-0">Discord</button>
                 </a>
+                <a href="fivem://connect/anarchyroleplay.com">
+                    <button class="btn btn-danger my-2 my-sm-0" style="margin-left: 10px;">Connect</button>
+                </a>
             </div>
         </div>  
     </nav>
