@@ -42,6 +42,36 @@
         </div>  
     </nav>
 
+    <div class="container">
+        <div class="row" style="margin-top: 75px;">
+            <div class="col-5 text-center" style="background-color: white; height: 200px; width: 50px; border-radius: 5px; box-shadow: 0px 3px 29px black;">
+                <h2 style="margin-top: 5%;">Staff Application</h2>
+                <p style="margin-top: 15px;">Do you have what it takes to become Anarchy Roleplays next staff member?</p>
+                <a href="staffapplication.php">
+                <button class="btn-danger btn" onclick="staffRedirect()">Apply</button>
+                </a>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-5 text-center" style="background-color: white; height: 200px; width: 50px; border-radius: 5px; box-shadow: 0px 3px 29px black;">
+                <h2 style="margin-top: 5%;">Developer Application</h2>
+                <p style="margin-top: 15px;">Do you have what it takes to become Anarchy Roleplays next developer?</p>
+                <a href="developerapplication.php">
+                <button class="btn-danger btn">Apply</button>
+                </a>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col text-center" style="background-color: white; height: 150px; width: 50px; border-radius: 5px; box-shadow: 0px 3px 29px black;">
+                <h1 style="padding: 50px 0; float: left; margin-left: 50px;">Unban Application</h1>
+                <a href="unbanapplication.php">
+                <button class="btn-lg btn-danger" style="margin: 0; position: absolute; top: 50%; left: 85%; transform: translate(-50%, -50%); float: right; width: 150px;">Apply</button>
+                </a> 
+            </div>
+        </div>
+    </div>
+
+
     <!-- Import Custom & Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

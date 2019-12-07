@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+/* Style to applications */
+input[type=button] {
+    transition: .3s ease-in-out !important;
+}
+
+input[type=button]:hover {
+    transition: .3s ease-in-out;
+    background-color: green !important;
+    transform: scale(1.05,1.05);
+}
