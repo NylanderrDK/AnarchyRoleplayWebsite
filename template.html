@@ -32,7 +32,7 @@
                         <a href="donation.php" class="nav-link">Donation</a>
                     </li>
                     <li class="nav-item">
-                        <a href="applications.php" class="nav-link">Application</a>
+                        <a href="applications.php" class="nav-link">Applications</a>
                     </li>
                 </ul>
                 <a href="discord.php">
