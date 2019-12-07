@@ -52,6 +52,68 @@
         </div>  
     </nav>
 
+    <div class="container">
+        <h1 class="text-center text-white" style="margin-top: 25px;">Anarchy Roleplay Shop</h1>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sniper</h5>
+                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sniper</h5>
+                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sniper</h5>
+                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 25px;">
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sniper</h5>
+                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sniper</h5>
+                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sniper</h5>
+                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                    </div>
+                </div>
+            </div>                        
+        </div>                                   
+    </div>
+
     <!-- Import Custom & Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
