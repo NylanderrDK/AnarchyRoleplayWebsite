@@ -55,7 +55,7 @@
     <h1 class="text-center" style="margin-top: 20px; color: white;">Staff Application</h1>
 
     <!-- Application form -->
-    <div class="container h-100">
+    <div class="container">
         <div class="row justify-content-center align-items-center" style="margin-top: 30px;">
             <form class="col-12" style="background-color: white;padding: 20px; border-radius: 25px;" method="POST" action="staffappsent.php">
                 <div class="form-group">
@@ -71,12 +71,12 @@
                     <input type="text" name="timezone" id="timezone" class="form-control" placeholder="EST" required>
                 </div>
                 <div class="form-group">
-                    <label for="qualities">Which Qualities Will You Bring To The Staff Team?</label>
-                    <textarea class="form-control" id="qualities" name="qualities" rows="3" required></textarea>
+                    <label for="qualities">Which qualities will you bring to the staff team?</label>
+                    <textarea class="form-control" id="qualities" name="qualities" rows="3" placeholder="Elaborate your answer." required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="future">What Future Do You Plan To Have At Anarchy Roleplay?</label>
-                    <textarea class="form-control" id="future" name="future" rows="3" required></textarea>
+                    <label for="future">What future do you plan to have at Anarchy Roleplay?</label>
+                    <textarea class="form-control" id="future" name="future" rows="3" placeholder="Elaborate your answer." required></textarea>
                 </div>
                 <div class="form-group">
                     <label for="references">References</label>
@@ -88,6 +88,11 @@
             </form>
         </div>
     </div>
+
+    <!-- Footer -->
+    <div class="text-center center-block text-white" style="margin-top: 25px;">
+        <p class="txt-railway">Copyright &copy; | Anarchyroleplay.com</p>
+    </div>    
 
     <!-- Import Custom & Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

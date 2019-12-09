@@ -52,18 +52,16 @@
         </div>  
     </nav>
 
-    <div class="container">
+    <!--<div class="container">
         <div class="row" style="margin-top: 75px;">
-            <div class="col-5 text-center" style="background-color: white; height: 200px; width: 50px; border-radius: 5px; box-shadow: 0px 3px 29px black;">
+            <div class="col-6 text-center" style="background-color: white; height: 200px; width: 50px !important; border-radius: 5px; box-shadow: 0px 3px 29px black;">
                 <h2 style="margin-top: 5%;">Staff Application</h2>
                 <p style="margin-top: 15px;">Do you have what it takes to become Anarchy Roleplays next staff member?</p>
                 <a href="staffapplication.php">
                 <button class="btn-danger btn redbtn" onclick="staffRedirect()">Apply</button>
                 </a>
             </div>
-            <div class="col-2">
-            </div>
-            <div class="col-5 text-center" style="background-color: white; height: 200px; width: 50px; border-radius: 5px; box-shadow: 0px 3px 29px black;">
+            <div class="col-6 text-center" style="background-color: white; height: 200px; width: 50px; border-radius: 5px; box-shadow: 0px 3px 29px black;">
                 <h2 style="margin-top: 5%;">Developer Application</h2>
                 <p style="margin-top: 15px;">Do you have what it takes to become Anarchy Roleplays next developer?</p>
                 <a href="developerapplication.php">
@@ -79,8 +77,36 @@
                 </a> 
             </div>
         </div>
+    </div>-->
+
+    <div class="container" style="margin-top: 50px;">
+        <h1 class="text-white text-center">Anarchy Roleplay Applications</h1>
+        <div class="row text-center" style="margin-top: 50px;">
+            <div class="card" style="width: 45%; margin-right: 5%;">
+                <div class="card-body">
+                    <h2>Staff Application</h2>
+                    <p style="margin-top: 15px;">Do you have what it takes to become Anarchy Roleplays next staff member?</p>
+                    <a href="staffapplication.php">
+                        <button class="btn-danger btn redbtn">Apply</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card" style="width: 45%;">
+                <div class="card-body">
+                    <h2>Developer Application</h2>
+                    <p style="margin-top: 15px;">Do you have what it takes to become Anarchy Roleplays next developer?</p>
+                    <a href="developerapplication.php">
+                        <button class="btn-danger btn redbtn">Apply</button>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <!-- Footer -->
+    <div class="text-center center-block text-white" style="margin-top: 25px;">
+        <p class="txt-railway">Copyright &copy; | Anarchyroleplay.com</p>
+    </div>    
 
     <!-- Import Custom & Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

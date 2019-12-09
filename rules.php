@@ -53,26 +53,56 @@
     </nav>
 
     <div class="container">
-        <h1 style="margin-top: 50px;color: white;">Rules</h1>
-        <div class="row" style="margin-top: 50px;">
+        <h1 style="margin-top: 50px;color: white; margin-bottom: 3px;">Anarchy Roleplay Rules</h1>
+        <p class="text-muted" style="color:white !important; margin-bottom:-1px;">Updated: <code>09/12/2019</code></p>
+        <div class="row" style="margin-top: 40px;">
             <div class="col" style="background-color: white; border-left: 5px solid #FF3E3E; border-bottom-left-radius: 5px; border-top-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; box-shadow: 0px 3px 29px black;">
-                <h1>General</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel facilisis volutpat est velit egestas dui id ornare arcu. Urna duis convallis convallis tellus id interdum velit. Non odio euismod lacinia at quis risus sed vulputate. Arcu odio ut sem nulla pharetra diam sit amet nisl.</p>
+                <h1>Fear RP</h1>
+                <p style="margin-bottom: 1px;"><b>Fear RP</b> means that you should respect your characters life, as much as you possibly can, you will always try to survive rather than an end in death.</p>
+                <p><b>UNLESS:</b> You're an anarchist.</p>
             </div>
         </div>
         <div class="row" style="margin-top: 50px;">
             <div class="col" style="background-color: white; border-left: 5px solid #9B5DFF; border-bottom-left-radius: 5px; border-top-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; box-shadow: 0px 3px 29px black;">
-                <h1>Game Rules</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel facilisis volutpat est velit egestas dui id ornare arcu. Urna duis convallis convallis tellus id interdum velit. Non odio euismod lacinia at quis risus sed vulputate. Arcu odio ut sem nulla pharetra diam sit amet nisl.</p>
+                <h1>Deathmatch</h1>
+                <p style="margin-bottom: 1px;"><b>TK (Team Kill)</b> is killing someone on your own tam without a valid reason. Valid reasons include, but are not limited to: Desertion, failure to follow orders, causing harm to civilians or allies. This will vary depending on your current faction.</p>
+                <p><b>RDM (Random Deathmatch)</b> is not allowed for any military personal. Military personal is only to engage in combat if the life of them self or other individuals are endangered or a command to do so is given by the commanding staff.</p>
             </div>
         </div>
         <div class="row" style="margin-top: 50px;">
             <div class="col" style="background-color: white; border-left: 5px solid #3EFFAD; border-bottom-left-radius: 5px; border-top-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; box-shadow: 0px 3px 29px black;">
-                <h1>Something Else</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel facilisis volutpat est velit egestas dui id ornare arcu. Urna duis convallis convallis tellus id interdum velit. Non odio euismod lacinia at quis risus sed vulputate. Arcu odio ut sem nulla pharetra diam sit amet nisl.</p>
+                <h1>Out Of Character (OOC)</h1>
+                <p style="margin-bottom: 1px;">It is <b><u>not</u></b> allowed at all to break your character in-game no matter what. Do you have any questions or feel you have been treated by some unacceptable roleplay, feel free to contact our support channel in our Discord and there will be staff available for you. All done in-game is done, you can’t change that. So there’s no such thing as saying “I accidentally clicked on my mouse and shot him”. </p>
+                <p><b>You cant</b> talk about admins / moderators while in roleplay og in-game. Spam unimportant stuff in the OOC chat. You can't blame a glithc / bug for something happening in a roleplay scenario.</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col" style="background-color: white; border-left: 5px solid blue; border-bottom-left-radius: 5px; border-top-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; box-shadow: 0px 3px 29px black;">
+                <h1>Capture Point</h1>
+                <p style="margin-bottom: 1px;">The U.S. is allowed to capture <b>any</b> point around the map <b><u>EXCEPT</u></b> inside the other factions base unless on a raid. (Must follow raid rules)</p>
+                <p>Standing on a capture point (grey circle) makes you KOS.</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col" style="background-color: white; border-left: 5px solid yellow; border-bottom-left-radius: 5px; border-top-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; box-shadow: 0px 3px 29px black;">
+                <h1>New Life Rule (NLR)</h1>
+                <p style="margin-bottom: 1px;">You are supposed to act like you got one life, don't waste it!</p>
+                <p>If you are clearly outnumbered, you are <b>not</b> allowed to take a hostile action. (Everyone except anarchists)</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col" style="background-color: white; border-left: 5px solid green; border-bottom-left-radius: 5px; border-top-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; box-shadow: 0px 3px 29px black;">
+                <h1>Miscellanies Rules</h1>
+                <p style="margin-bottom: 1px;">All players must follow directions given by all staff members. If a player finds a staff member to be abusing his/her powers may they contat the senior administrative team to fllow an official complaint.</p>
+                <p>You, the player, are the only one resonsible for your own Discord and Steam account. No other individuals may borrow your account, and if they do so will you be responsible for their actions.</p>
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <div class="text-center center-block text-white" style="margin-top: 25px;">
+        <p class="txt-railway">Copyright &copy; | Anarchyroleplay.com</p>
+    </div>    
 
     <!-- Import Custom & Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

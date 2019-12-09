@@ -63,12 +63,9 @@
 
         <p>Anarchy Roleplay follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
 
-
-
-
         <h2>Privacy Policies</h2>
 
-        <P>You may consult this list to find the Privacy Policy for each of the advertising partners of Anarchy Roleplay. Our Privacy Policy was created with the help of the <a href="https://www.privacypolicygenerator.info" style="color:white;">Privacy Policy Generator</a> and the <a href="https://www.privacypolicyonline.com" style="color:white;">Privacy Policy Generator Online</a>.</p>
+        <P>You may consult this list to find the Privacy Policy for each of the advertising partners of Anarchy Roleplay. Our Privacy Policy was created with the help of the <a href="https://www.privacypolicygenerator.info" style="color:black;">Privacy Policy Generator</a> and the <a href="https://www.privacypolicyonline.com" style="color:black;">Privacy Policy Generator Online</a>.</p>
 
         <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Anarchy Roleplay, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
 
@@ -94,6 +91,11 @@
 
         <p>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>
 
+    </div>
+
+    <!-- Footer -->
+    <div class="text-center center-block text-white">
+        <p class="txt-railway">Copyright &copy; | Anarchyroleplay.com</p>
     </div>
 
     <!-- Import Custom & Bootstrap JS -->
