@@ -9,7 +9,7 @@
     $link = mysqli_connect($dbServer, $dbUser, $dbPswd, $dbName);
 
     // Check connection
-    if($link == false) {
+    if(mysqli_connect_error()) {
         die("ERROR: Couldn't connect to the database. Error: " . mysqli_connect_error());
     }
 ?>
