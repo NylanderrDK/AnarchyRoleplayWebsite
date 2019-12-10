@@ -63,6 +63,10 @@
                     <input type="text" name="fname" id="fname" class="form-control" placeholder="John Doe" required>
                 </div>
                 <div class="form-group">
+                    <label for="age">Your Age</label>
+                    <input type="text" name="age" id="age" class="form-control" placeholder="17 years" required>
+                </div>
+                <div class="form-group">
                     <label for="country">Your Country</label>
                     <input type="text" name="country" id="country" class="form-control" placeholder="Denmark" required>
                 </div>
@@ -71,16 +75,31 @@
                     <input type="text" name="timezone" id="timezone" class="form-control" placeholder="EST" required>
                 </div>
                 <div class="form-group">
-                    <label for="qualities">Which qualities will you bring to the staff team?</label>
-                    <textarea class="form-control" id="qualities" name="qualities" rows="3" placeholder="Elaborate your answer." required></textarea>
+                    <label for="steamid">Your SteamID64</label>
+                    <input type="text" name="steamid" id="steamid" class="form-control" placeholder="76561198267876408" required>
                 </div>
                 <div class="form-group">
-                    <label for="future">What future do you plan to have at Anarchy Roleplay?</label>
-                    <textarea class="form-control" id="future" name="future" rows="3" placeholder="Elaborate your answer." required></textarea>
+                    <label for="howlong">How long have you played on our server for?</label>
+                    <input type="text" name="howlong" id="howlong" class="form-control" placeholder="I have played on the server for about 3 months." required>
                 </div>
                 <div class="form-group">
-                    <label for="references">References</label>
-                    <input type="text" name="references" id="references" class="form-control" placeholder="References" required>
+                    <label for="why">Why do you want to be a part of the staff team?</label>
+                    <textarea class="form-control" id="why" name="why" rows="3" placeholder="Elaborate your answer." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="what">What will you bring to the staff team?</label>
+                    <textarea class="form-control" id="what" name="what" rows="3" placeholder="Elaborate your answer." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="microphone">Do you have a working microphone?</label>
+                    <select class="form-control" id="microphone" name="microphone" required>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="references">Were you referred by anyone on the recruitment team?</label>
+                    <input type="text" name="references" id="references" class="form-control" placeholder="Yes, Zhag." required>
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-secondary justify-content-center" id="sendapp" name="sendapp">Send Application</button>
