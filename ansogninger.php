@@ -14,6 +14,7 @@
 <body style="background-image: url(lib/img/bgImg.png); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
     
     <!-- Navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.php">
@@ -23,30 +24,30 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="index.php">Forside</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Information
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="rules.php">Rules</a>
+                            <a class="dropdown-item" href="regler.php">Regler</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="privacy.php">Privacy Policy</a>
+                            <a class="dropdown-item" href="privatliv.php">Privatlivspolitik</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="donation.php" class="nav-link">Donation</a>
+                        <a href="donation.php" class="nav-link">Donationer</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="applications.php" class="nav-link">Applications</a>
+                        <a href="ansogninger.php" class="nav-link">Ansøgninger</a>
                     </li>
                 </ul>
                 <a href="discord.php">
                     <button class="btn btn-danger my-2 my-sm-0 redbtn">Discord</button>
                 </a>
                 <a href="fivem://connect/anarchyroleplay.com">
-                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Connect</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Tilslut</button>
                 </a>
             </div>
         </div>  
@@ -80,23 +81,23 @@
     </div>-->
 
     <div class="container" style="margin-top: 50px;">
-        <h1 class="text-white text-center">Anarchy Roleplay Applications</h1>
+        <h1 class="text-white text-center">Anarchy Roleplay Ansøgninger</h1>
         <div class="row text-center" style="margin-top: 50px;">
             <div class="card" style="width: 45%; margin-right: 5%;">
                 <div class="card-body">
-                    <h2>Staff Application</h2>
-                    <p style="margin-top: 15px;">Do you have what it takes to become Anarchy Roleplays next staff member?</p>
-                    <a href="staffapplication.php">
-                        <button class="btn-danger btn redbtn">Apply</button>
+                    <h2>Staff Ansøgning</h2>
+                    <p style="margin-top: 15px;">Har du hvad der skal til for at blive Anarchy Roleplays næste staff medlem?</p>
+                    <a href="staffansogning.php">
+                        <button class="btn-danger btn redbtn">Ansøg</button>
                     </a>
                 </div>
             </div>
             <div class="card" style="width: 45%;">
                 <div class="card-body">
-                    <h2>Developer Application</h2>
-                    <p style="margin-top: 15px;">Do you have what it takes to become Anarchy Roleplays next developer?</p>
-                    <a href="developerapplication.php">
-                        <button class="btn-danger btn redbtn">Apply</button>
+                    <h2>Udvikler Ansøgning</h2>
+                    <p style="margin-top: 15px;">Har du hvad der skal til for at blive Anarchy Roleplays næste udvikler?</p>
+                    <a href="udvikleransogning.php">
+                        <button class="btn-danger btn redbtn">Ansøg</button>
                     </a>
                 </div>
             </div>

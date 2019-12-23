@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anarchy Roleplay | Home</title>
+    <title>Anarchy Roleplay | Privatlivspolitik</title>
     <link rel="shortcut icon" href="lib/img/favicon.png" type="image/x-icon">
 
     <!-- Import Custom & Bootstrap CSS -->
@@ -23,30 +23,30 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="index.php">Forside</a>
                     </li>
                     <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Information
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="rules.php">Rules</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="privacy.php">Privacy Policy</a>
-                            </div>
-                        </li>
-                    <li class="nav-item">
-                        <a href="donation.php" class="nav-link">Donation</a>
+                        <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Information
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="regler.php">Regler</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="privatliv.php">Privatlivspolitik</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a href="applications.php" class="nav-link">Applications</a>
+                        <a href="donation.php" class="nav-link">Donationer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ansogninger.php" class="nav-link">Ansøgninger</a>
                     </li>
                 </ul>
                 <a href="discord.php">
                     <button class="btn btn-danger my-2 my-sm-0 redbtn">Discord</button>
                 </a>
                 <a href="fivem://connect/anarchyroleplay.com">
-                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Connect</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Tilslut</button>
                 </a>
             </div>
         </div>  

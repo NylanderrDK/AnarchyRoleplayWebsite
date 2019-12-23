@@ -23,86 +23,86 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="index.php">Forside</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Information
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="rules.php">Rules</a>
+                            <a class="dropdown-item" href="regler.php">Regler</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="privacy.php">Privacy Policy</a>
+                            <a class="dropdown-item" href="privatliv.php">Privatlivspolitik</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="donation.php" class="nav-link">Donation</a>
+                        <a href="donation.php" class="nav-link">Donationer</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="applications.php" class="nav-link">Applications</a>
+                        <a href="ansogninger.php" class="nav-link">Ansøgninger</a>
                     </li>
                 </ul>
                 <a href="discord.php">
                     <button class="btn btn-danger my-2 my-sm-0 redbtn">Discord</button>
                 </a>
                 <a href="fivem://connect/anarchyroleplay.com">
-                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Connect</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Tilslut</button>
                 </a>
             </div>
         </div>  
     </nav>
 
-    <h1 class="text-center" style="margin-top: 20px; color: white;">Staff Application</h1>
+    <h1 class="text-center" style="margin-top: 20px; color: white;">Staff Ansøgning</h1>
 
     <!-- Application form -->
     <div class="container">
         <div class="row justify-content-center align-items-center" style="margin-top: 30px;">
             <form class="col-12" style="background-color: white;padding: 20px; border-radius: 25px;" method="POST" action="staffappsent.php">
                 <div class="form-group">
-                    <label for="fname">Your Full Name</label>
+                    <label for="fname">Dit Fulde Navn</label>
                     <input type="text" name="fname" id="fname" class="form-control" placeholder="John Doe" required>
                 </div>
                 <div class="form-group">
-                    <label for="age">Your Age</label>
-                    <input type="text" name="age" id="age" class="form-control" placeholder="17 years" required>
+                    <label for="age">Din Alder</label>
+                    <input type="text" name="age" id="age" class="form-control" placeholder="17 år" required>
                 </div>
                 <div class="form-group">
-                    <label for="country">Your Country</label>
-                    <input type="text" name="country" id="country" class="form-control" placeholder="Denmark" required>
+                    <label for="country">Dit Land</label>
+                    <input type="text" name="country" id="country" class="form-control" placeholder="Danmark" required>
                 </div>
                 <div class="form-group">
-                    <label for="timezone">Your Timezone</label>
+                    <label for="timezone">Din Tidszone</label>
                     <input type="text" name="timezone" id="timezone" class="form-control" placeholder="EST" required>
                 </div>
                 <div class="form-group">
-                    <label for="steamid">Your SteamID64</label>
+                    <label for="steamid">Dit Steam64 ID</label>
                     <input type="text" name="steamid" id="steamid" class="form-control" placeholder="76561198267876408" required>
                 </div>
                 <div class="form-group">
-                    <label for="howlong">How long have you played on our server for?</label>
-                    <input type="text" name="howlong" id="howlong" class="form-control" placeholder="I have played on the server for about 3 months." required>
+                    <label for="howlong">Hvor lang tid har du spillet på Anarchy Roleplay?</label>
+                    <input type="text" name="howlong" id="howlong" class="form-control" placeholder="Jeg har spillet på serveren i 3 måneder." required>
                 </div>
                 <div class="form-group">
-                    <label for="why">Why do you want to be a part of the staff team?</label>
-                    <textarea class="form-control" id="why" name="why" rows="3" placeholder="Elaborate your answer." required></textarea>
+                    <label for="why">Hvorfor vil du gerne blive en del af staff teamet?</label>
+                    <textarea class="form-control" id="why" name="why" rows="3" placeholder="Uddyb dit svar.." required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="what">What will you bring to the staff team?</label>
-                    <textarea class="form-control" id="what" name="what" rows="3" placeholder="Elaborate your answer." required></textarea>
+                    <label for="what">Hvilke kvalifikationer kan du medbringe til staff teamet?</label>
+                    <textarea class="form-control" id="what" name="what" rows="3" placeholder="Uddyb dit svar.." required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="microphone">Do you have a working microphone?</label>
+                    <label for="microphone">Har du en fungerende mikrofon?</label>
                     <select class="form-control" id="microphone" name="microphone" required>
-                        <option>Yes</option>
-                        <option>No</option>
+                        <option>Ja</option>
+                        <option>Nej</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="references">Were you referred by anyone on the recruitment team?</label>
-                    <input type="text" name="references" id="references" class="form-control" placeholder="Yes, Zhag." required>
+                    <label for="references">Er du blevet henvist af en fra ansættelses teamet?</label>
+                    <input type="text" name="references" id="references" class="form-control" placeholder="Ja, Zhag." required>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-secondary justify-content-center" id="sendapp" name="sendapp">Send Application</button>
+                    <button type="submit" class="btn btn-secondary justify-content-center" id="sendapp" name="sendapp">Send Ansøgning</button>
                 </div>
             </form>
         </div>

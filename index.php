@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anarchy Roleplay | Home</title>
+    <title>Anarchy Roleplay | Forside</title>
     <link rel="shortcut icon" href="lib/img/favicon.png" type="image/x-icon">
 
     <!-- Import Custom & Bootstrap CSS -->
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- SEO -->
+    <meta name="description" content="Anarchy Roleplay er en dansk roleplay server i FiveM, som er baseret på et gamemode mellem militær og anarkister.">
+    <meta name="keywords" content="Anarchy Roleplay, Roleplay, FiveM, Anarchy, Anarkist, Anarkister, Militær, Military, Dansk Roleplay, Dansk FiveM, Dansk Militær">
+    <meta name="author" content="Anarchy Roleplay | Nylander">
 </head>
 <body style="background-image: url(lib/img/bgImg.png); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
     
@@ -23,30 +28,30 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="index.php">Forside</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Information
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="rules.php">Rules</a>
+                            <a class="dropdown-item" href="regler.php">Regler</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="privacy.php">Privacy Policy</a>
+                            <a class="dropdown-item" href="privatliv.php">Privatlivspolitik</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="donation.php" class="nav-link">Donation</a>
+                        <a href="donation.php" class="nav-link">Donationer</a>
                     </li>
                     <li class="nav-item">
-                        <a href="applications.php" class="nav-link">Applications</a>
+                        <a href="ansogninger.php" class="nav-link">Ansøgninger</a>
                     </li>
                 </ul>
                 <a href="discord.php">
                     <button class="btn btn-danger my-2 my-sm-0 redbtn">Discord</button>
                 </a>
                 <a href="fivem://connect/anarchyroleplay.com">
-                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Connect</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Tilslut</button>
                 </a>
             </div>
         </div>  

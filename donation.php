@@ -23,44 +23,45 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="index.php">Forside</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Information
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="rules.php">Rules</a>
+                            <a class="dropdown-item" href="regler.php">Regler</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="privacy.php">Privacy Policy</a>
+                            <a class="dropdown-item" href="privatliv.php">Privatlivspolitik</a>
                         </div>
                     </li>
                     <li class="nav-item active">
-                        <a href="donation.php" class="nav-link">Donation</a>
+                        <a href="donation.php" class="nav-link">Donationer</a>
                     </li>
                     <li class="nav-item">
-                        <a href="applications.php" class="nav-link">Applications</a>
+                        <a href="ansogninger.php" class="nav-link">Ansøgninger</a>
                     </li>
                 </ul>
                 <a href="discord.php">
                     <button class="btn btn-danger my-2 my-sm-0 redbtn">Discord</button>
                 </a>
                 <a href="fivem://connect/anarchyroleplay.com">
-                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Connect</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Tilslut</button>
                 </a>
             </div>
         </div>  
     </nav>
 
     <div class="container">
-        <h1 class="text-center text-white" style="margin-top: 25px;">Anarchy Roleplay Shop</h1>
+        <h1 class="text-center text-white" style="margin-top: 25px;">Anarchy Roleplay Butik</h1>
+        <p class="text-center text-white"><code class="text-white">OBS: DENNE SIDE ER ENDNU IKKE FÆRDIGGJORT. KØB ER DERFOR IKKE MULIGT - VI HENVISER DERFOR TIL VORES DISCORD SERVER!</code></p>
         <div class="row" style="margin-top: 50px;">
             <div class="col-4">
                 <div class="card text-center" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Sniper</h5>
-                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
-                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                        <p class="card-text">Bliv skarpskytten. Hjælp dit hold med at bekæmpe fjender på afstand.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Køb</a>
                     </div>
                 </div>
             </div>
@@ -68,8 +69,8 @@
                 <div class="card text-center" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Sniper</h5>
-                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
-                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                        <p class="card-text">Bliv skarpskytten. Hjælp dit hold med at bekæmpe fjender på afstand.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Køb</a>
                     </div>
                 </div>
             </div>
@@ -77,8 +78,8 @@
                 <div class="card text-center" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Sniper</h5>
-                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
-                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                        <p class="card-text">Bliv skarpskytten. Hjælp dit hold med at bekæmpe fjender på afstand.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Køb</a>
                     </div>
                 </div>
             </div>
@@ -88,8 +89,8 @@
                 <div class="card text-center" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Sniper</h5>
-                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
-                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                        <p class="card-text">Bliv skarpskytten. Hjælp dit hold med at bekæmpe fjender på afstand.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Køb</a>
                     </div>
                 </div>
             </div>
@@ -97,8 +98,8 @@
                 <div class="card text-center" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Sniper</h5>
-                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
-                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                        <p class="card-text">Bliv skarpskytten. Hjælp dit hold med at bekæmpe fjender på afstand.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Køb</a>
                     </div>
                 </div>
             </div>
@@ -106,8 +107,8 @@
                 <div class="card text-center" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Sniper</h5>
-                        <p class="card-text">Become the sharpshooter of the field. Help your team fight the enemy in the distance.</p>
-                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Buy</a>
+                        <p class="card-text">Bliv skarpskytten. Hjælp dit hold med at bekæmpe fjender på afstand.</p>
+                        <a href="#!" class="btn btn-danger redbtn" style="width: 100px;">Køb</a>
                     </div>
                 </div>
             </div>                        

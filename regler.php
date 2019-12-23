@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anarchy Roleplay | Home</title>
+    <title>Anarchy Roleplay | Regler</title>
     <link rel="shortcut icon" href="lib/img/favicon.png" type="image/x-icon">
 
     <!-- Import Custom & Bootstrap CSS -->
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- SEO -->
+    <meta name="description" content="Anarchy Roleplay er en dansk roleplay server i FiveM, som er baseret på et gamemode mellem militær og anarkister.">
+    <meta name="keywords" content="Anarchy Roleplay, Roleplay, FiveM, Anarchy, Anarkist, Anarkister, Militær, Military, Dansk Roleplay, Dansk FiveM, Dansk Militær">
 </head>
 <body style="background-image: url(lib/img/bgImg.png); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
     
@@ -19,42 +23,43 @@
             <a class="navbar-brand" href="index.php">
                 <img src="lib/img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="Anarchy Roleplay Logo">
             </a>
-            
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="index.php">Forside</a>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Information
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="rules.php">Rules</a>
+                            <a class="dropdown-item" href="regler.php">Regler</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="privacy.php">Privacy Policy</a>
+                            <a class="dropdown-item" href="privatliv.php">Privatlivspolitik</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="donation.php" class="nav-link">Donation</a>
+                        <a href="donation.php" class="nav-link">Donationer</a>
                     </li>
                     <li class="nav-item">
-                        <a href="applications.php" class="nav-link">Applications</a>
+                        <a href="ansogninger.php" class="nav-link">Ansøgninger</a>
                     </li>
                 </ul>
                 <a href="discord.php">
                     <button class="btn btn-danger my-2 my-sm-0 redbtn">Discord</button>
                 </a>
                 <a href="fivem://connect/anarchyroleplay.com">
-                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Connect</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Tilslut</button>
                 </a>
             </div>
         </div>  
     </nav>
 
     <div class="container">
-        <h1 style="margin-top: 50px;color: white; margin-bottom: 3px;">Anarchy Roleplay Rules</h1>
-        <p class="text-muted" style="color:white !important; margin-bottom:-1px;">Updated: <code>09/12/2019</code></p>
+        <h1 style="margin-top: 50px;color: white; margin-bottom: 3px;">Anarchy Roleplay Regler</h1>
+        <p class="text-muted" style="color:white !important; margin-bottom:-1px;">Opdateret: <code>09/12/2019</code></p>
+        <p class="text-muted" style="color: white !important; margin-bottom: -1px;">DENNE SIDE ER UNDER OVERSÆTTELSE!</p>
         <div class="row" style="margin-top: 40px;">
             <div class="col" style="background-color: white; border-left: 5px solid #FF3E3E; border-bottom-left-radius: 5px; border-top-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; box-shadow: 0px 3px 29px black;">
                 <h1>Fear RP</h1>

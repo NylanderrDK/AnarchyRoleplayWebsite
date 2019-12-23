@@ -23,67 +23,67 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="index.php">Forside</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Information
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="rules.php">Rules</a>
+                            <a class="dropdown-item" href="regler.php">Regler</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="privacy.php">Privacy Policy</a>
+                            <a class="dropdown-item" href="privatliv.php">Privatlivspolitik</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="donation.php" class="nav-link">Donation</a>
+                        <a href="donation.php" class="nav-link">Donationer</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="applications.php" class="nav-link">Applications</a>
+                        <a href="ansogninger.php" class="nav-link">Ansøgninger</a>
                     </li>
                 </ul>
                 <a href="discord.php">
                     <button class="btn btn-danger my-2 my-sm-0 redbtn">Discord</button>
                 </a>
                 <a href="fivem://connect/anarchyroleplay.com">
-                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Connect</button>
+                    <button class="btn btn-danger my-2 my-sm-0 redbtn" style="margin-left: 10px;">Tilslut</button>
                 </a>
             </div>
         </div>  
     </nav>
 
-    <h1 class="text-center" style="margin-top: 20px; color: white;">Developer Application</h1>
+    <h1 class="text-center" style="margin-top: 20px; color: white;">Udvikler Ansøgning</h1>
 
     <!-- Application form -->
     <div class="container">
         <div class="row justify-content-center align-items-center" style="margin-top: 30px;">
             <form class="col-12" style="background-color: white;padding: 20px; border-radius: 25px;" method="POST" action="devappsent.php">
                 <div class="form-group">
-                    <label for="name">Your Full Name</label>
+                    <label for="name">Dit Fulde Navn</label>
                     <input type="text" name="fname" id="fname" class="form-control" placeholder="John Doe" required>
                 </div>
                 <div class="form-group">
-                    <label for="country">Your Country</label>
-                    <input type="text" name="country" id="country" class="form-control" placeholder="Denmark" required>
+                    <label for="country">Dit Land</label>
+                    <input type="text" name="country" id="country" class="form-control" placeholder="Danmark" required>
                 </div>
                 <div class="form-group">
-                    <label for="timezone">Your Timezone</label>
+                    <label for="timezone">Din Tidszone</label>
                     <input type="text" name="timezone" id="timezone" class="form-control" placeholder="EST" required>
                 </div>
                 <div class="form-group">
-                    <label for="qualities">Which qualities will you bring to the staff team?</label>
-                    <textarea class="form-control" id="qualities" name="qualities" rows="3" placeholder="Elaborate your answer." required></textarea>
+                    <label for="qualities">Hvilke kvalifikationer kan du medbringe til udvikler teamet?</label>
+                    <textarea class="form-control" id="qualities" name="qualities" rows="3" placeholder="Uddyb dit svar.." required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="future">What future do you plan to have at Anarchy Roleplay?</label>
-                    <textarea class="form-control" id="future" name="future" rows="3" placeholder="Elaborate your answer." required></textarea>
+                    <label for="future">Hvilken plan har du indenfor Anarchy Roleplay?</label>
+                    <textarea class="form-control" id="future" name="future" rows="3" placeholder="Uddyb dit svar.." required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="references">References</label>
-                    <input type="text" name="references" id="references" class="form-control" placeholder="References" required>
+                    <label for="references">Referencer</label>
+                    <input type="text" name="references" id="references" class="form-control" placeholder="Referencer" required>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-secondary justify-content-center" id="sendapp" name="sendapp">Send Application</button>
+                    <button type="submit" class="btn btn-secondary justify-content-center" id="sendapp" name="sendapp">Send Ansøgning</button>
                 </div>
             </form>
         </div>
