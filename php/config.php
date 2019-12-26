@@ -2,7 +2,7 @@
     // Database Variables - DONT TOUCH
     $dbServer = "localhost";
     $dbUser = "root";
-    $dbPswd = "9500Hobro";
+    $dbPswd = "";
     $dbName = "anarchyrp";
 
     // Create connection to the database
