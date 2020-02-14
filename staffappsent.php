@@ -26,6 +26,22 @@
         }
     }
 
+    // Discord webhook
+    $webhook = "https://discordapp.com/api/webhooks/664186711428825120/Qy7dnyt3d5JlNWyNghpD7bhubqo-PNTJNKomgMrp39blqvm32XKZv_0Adwz8IH1kBCbA";
+    $msg = "**Ny staff ansøgning!**\n**Navn:** $name\n**";
+
+    $json_data = array('content'=>"$msg");
+    $make_json = json_encode($json_data);
+
+    $ch = curl_init( $webhook );
+    curl_setopt( $ch, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
+    curl_setopt( $ch, CURLOPT_POST, 1);
+    curl_setopt( $ch, CURLOPT_POSTFIELDS, $make_json);
+    curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 1);
+    curl_setopt( $ch, CURLOPT_HEADER, 0);
+    curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1);
+    $response = curl_exec( $ch );
+
     // Close connection
     mysqli_close($link);
 ?>
